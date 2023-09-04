@@ -1,0 +1,49 @@
+01 - Copy all the necessary files to the server.
+  mkdir -p ~/zabbix/site/
+  rsync -avh -e ssh /opt/certificates/edge-zabbix-01.homelab/{*.crt,*.key} lsampaio-zabbix-team@edge-zabbix-01.homelab:~/zabbix/site/
+  rsync -avh -e ssh 01-Install/02-Frontend/files/ lsampaio-zabbix-team@edge-zabbix-01.homelab:~/zabbix/site/
+
+02 - Add the SSL certificate
+  Remove the default files.
+    sudo a2dissite 000-default
+    sudo rm /etc/apache2/sites-available/*
+
+  Adjust the permissions
+    sudo cp ~/zabbix/site/{*.crt,*.key} /etc/zabbix/web/
+    sudo chown www-data. /etc/zabbix/web/{*.crt,*.key}
+
+  Copy the conf file.
+    sudo cp ~/zabbix/site/zabbix.conf /etc/apache2/sites-available/
+    sudo chown www-data. /etc/apache2/sites-available/*.conf
+
+  Configuring Apache to Use TLS and redirect to HTTPS
+    sudo a2enmod ssl &&
+    sudo a2enmod rewrite &&
+    sudo a2ensite zabbix &&
+    sudo systemctl restart apache2
+
+03 - Start Apache
+  sudo systemctl restart apache2
+
+04 - Open Zabbix UI web page:
+  The default URL https://edge-zabbix-01.homelab/
+  Username: Admin
+  Password: zabbix
+
+  Default language    : English
+
+  Configure DB connection:
+    Database type           : PostgreSQL
+    Database host           : edge-postgresql-01.homelab
+    Database port           : 0
+    Database name           : zabbix
+    Database schema         : public
+    Store Credentials in    : Plain Text
+    User                    : zabbix
+    Password                : Keychain: "edge-zabbix-01-db-user"
+    Database TLS encryption : Unchecked
+
+  Settings:
+    Zabbix server name  : edge-zabbix-01
+    Default time zone   : America/Maceio
+    Default theme       : Dark

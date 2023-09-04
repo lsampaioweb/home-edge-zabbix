@@ -1,0 +1,6 @@
+sudo apt --purge remove -y zabbix-server-pgsql zabbix-frontend-php php8.1-pgsql zabbix-apache-conf zabbix-sql-scripts zabbix-agent && sudo apt autoremove -y
+
+sudo deluser zabbix
+
+sudo rm -rf /etc/zabbix/ &&
+sudo rm -rf /var/log/zabbix/ && 

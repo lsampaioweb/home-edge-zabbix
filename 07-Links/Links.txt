@@ -1,0 +1,5 @@
+01 - Download and install Zabbix
+  https://www.zabbix.com/download?zabbix=6.4&os_distribution=ubuntu&os_version=22.04&components=server_frontend_agent&db=pgsql&ws=apache
+
+02 - How to Install Zabbix Agent on Ubuntu 22.04
+  https://tecadmin.net/how-to-install-zabbix-agent-on-ubuntu-22-04/
