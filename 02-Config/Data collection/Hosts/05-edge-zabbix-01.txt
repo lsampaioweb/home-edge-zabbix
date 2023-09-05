@@ -1,0 +1,22 @@
+Host name   : edge-zabbix-01
+Templates   :
+  Apache by Zabbix agent
+  Linux by Zabbix agent
+  Systemd by Zabbix agent 2
+  Website certificate by Zabbix agent 2
+  Zabbix server health
+Host groups : Linux servers, Virtual machines, Zabbix servers
+
+Interfaces  :
+  Agent   : edge-zabbix-01.homelab
+  Connect : DNS
+  Port    : 10050
+
+Enabled: Checked
+
+Tags:
+  frontend  : zabbix
+  backend   : zabbix
+
+Macros:
+  {$CERT.WEBSITE.HOSTNAME} : edge-zabbix-01.homelab
