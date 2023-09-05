@@ -1,0 +1,5 @@
+Template  : Systemd by Zabbix agent 2
+
+Macro     : {$SYSTEMD.NAME.SERVICE.MATCHES}
+Value     : ^(fail2ban.service|sssd.service|ufw.service|ssh.service|apparmor.service|zabbix-agent2.service|slapd.service)$
+  

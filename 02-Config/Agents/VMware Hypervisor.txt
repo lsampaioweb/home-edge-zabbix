@@ -1,0 +1,34 @@
+Link:
+  01 - VMware Monitoring with Zabbix: ESXi, vCenter, VMs (vSphere)
+    https://bestmonitoringtools.com/vmware-monitoring-with-zabbix-esxi-vcenter-vm-vsphere/
+
+01 - Create a read-only user on the VMware vCenter server
+
+02 - Update Zabbix server configuration file
+  sudo nano /etc/zabbix/zabbix_server.conf
+    StartVMwareCollectors=3
+    VMwareFrequency=60
+    VMwarePerfFrequency=60
+    VMwareCacheSize=256M
+    VMwareTimeout=120
+
+03 - Get the REAL and right UUID:
+  Log on to the ESXi server' ui, 
+    Manage -> System -> Advanced settings 
+    Set the key 'Config.HostAgent.plugins.solo.enableMob' to TRUE.
+
+  Browse to:
+  https://edge-esxi-01.homelab/mob/?moid=ha-host&doPath=hardware.systemInfo
+  (You'll need to give your credentials.)
+
+  Copy the UUID, paste it as a value for your {$VMWARE.HV.UUID} macro.
+  Set the key 'Config.HostAgent.plugins.solo.enableMob' back to FALSE.
+
+04 - Set the Macro
+  {$VMWARE.URL}       - https://edge-esxi-01.homelab/sdk
+  {$VMWARE.USERNAME}  - zabbix_monitor
+  {$VMWARE.PASSWORD}  - Password: '<Keychain: "edge-esxi-01-zabbix-user">'
+  {$VMWARE.HV.UUID}   - <Big number>
+
+05 - Restart the Zabbix.
+  sudo systemctl restart zabbix-server

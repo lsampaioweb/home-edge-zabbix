@@ -1,0 +1,31 @@
+Link:
+  01 - Apache by Zabbix agent
+    https://mpolinowski.github.io/docs/DevOps/Zabbix/2021-01-14--zabbix-apache2-monitor/2021-10-14/
+
+01 - Activate the Server Status module:
+  sudo a2enmod status
+
+02 - Edit the status.conf
+  sudo nano /etc/apache2/mods-available/status.conf
+
+<IfModule mod_status.c>
+        <Location /server-status>
+                SetHandler server-status
+                Require local
+                Require ip 192.168.2.10/32
+        </Location>
+        ExtendedStatus On
+        <IfModule mod_proxy.c>
+                ProxyStatus On
+        </IfModule>
+</IfModule>
+
+03 - Check config integrity and restart:
+  apachectl configtest
+  apache2 -t
+  curl https://edge-ldap-01.homelab/server-status?auto
+  curl https://edge-zabbix-01.homelab/server-status?auto
+  curl https://edge-grafana-01.homelab/server-status?auto
+
+04 - Restart the Apache service.
+  sudo systemctl restart apache2

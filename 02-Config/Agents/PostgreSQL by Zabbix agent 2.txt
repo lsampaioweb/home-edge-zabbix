@@ -1,0 +1,23 @@
+On PostgreSQL servers you have to install this package.
+  sudo apt install -y zabbix-agent2-plugin-postgresql
+
+01 - Create PostgreSQL user to monitor and inherit permissions from the default role pg_monitor:
+  sudo -su postgres
+  cd
+  psql
+  CREATE USER zabbix_monitor WITH PASSWORD '<password>' INHERIT;
+    Password: '<Keychain: "edge-postgresql-01-zabbix-monitor">'
+  GRANT pg_monitor TO zabbix_monitor;
+  \q
+
+02 - Allow connections from Zabbix agent:
+  sudo nano /etc/postgresql/14/main/pg_hba.conf
+  # TYPE  DATABASE        USER            ADDRESS                 METHOD
+  host    all             zabbix_monitor  localhost               md5
+  sudo systemctl restart postgresql
+
+03 - Set the values for the template
+  {$PG.URI}       = tcp://localhost:5432
+  {$PG.USER}      = zabbix_monitor
+  {$PG.DATABASE}  = postgres
+  {$PG.PASSWORD}  = Password: '<Keychain: "edge-postgresql-01-zabbix-monitor">'
