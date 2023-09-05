@@ -20,4 +20,8 @@ Repository with the settings used on my Zabbix on the Home environment.
 
 1. Users.
 
+1. SLAs.
+
+1. Services.
+
 1. Alerts.
