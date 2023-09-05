@@ -1,0 +1,7 @@
+User group:
+  Group name      : Network Admins
+  Users           :
+  Frontend access : System default
+  LDAP Server     : Default
+  Enabled         : Checked
+  Debug mode      : Unchecked

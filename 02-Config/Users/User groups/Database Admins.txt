@@ -1,0 +1,7 @@
+User group:
+  Group name      : Database Admins
+  Users           :
+  Frontend access : System default
+  LDAP Server     : Default
+  Enabled         : Checked
+  Debug mode      : Unchecked

@@ -1,0 +1,50 @@
+Enable LDAP authentication  : Checked
+Enable JIT provisioning     : Checked
+
+Servers
+  Edge-LDAP	ldap://edge-ldap-01.homelab
+
+Case-sensitive login        : Checked
+Provisioning period         : 1h
+
+LDAP Server Settings:
+  Name                            : Edge-LDAP
+  Host                            : ldap://edge-ldap-01.homelab
+  Port                            : 389
+  Base DN                         : ou=people,dc=homelab
+  Search attribute                : uid
+  Bind DN                         : cn=ldap-reader-zabbix,dc=homelab
+  Bind password                   : Keichain: "edge-zabbix-01-ldap-reader"
+  Description                     : Edge OpenLDAP 01
+
+  Configure JIT provisioning      : Checked
+  Group configuration             : memberOf
+  Group name attribute            : cn
+  User group membership attribute : memberOf
+  User name attribute             : givenName
+  User last name attribute        : sn
+
+User group mapping:
+  LDAP group pattern              : zabbix-admins
+  User groups                     : Zabbix administrators
+  User role                       : Super admin role
+
+  LDAP group pattern              : server-admins
+  User groups                     : Server Admins
+  User role                       : User role
+
+  LDAP group pattern              : network-admins
+  User groups                     : Network Admins
+  User role                       : User role
+
+  LDAP group pattern              : ldap-admins
+  User groups                     : LDAP Admins
+  User role                       : User role
+
+  LDAP group pattern              : postgresql-admins
+  User groups                     : Database Admins
+  User role                       : User role
+
+  LDAP group pattern              : grafana-admins
+  User groups                     : Monitoring Admins
+  User role                       : User role

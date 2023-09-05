@@ -1,0 +1,11 @@
+Default authentication    : LDAP
+Deprovisioned users group : Disabled
+
+Password policy:
+  Minimum password length : 8
+  Password must contain   : 
+    an uppercase and a lowercase Latin letter : Unchecked
+    a digit                                   : Unchecked
+    a special character                       : Unchecked
+
+Avoid easy-to-guess passwords : Checked
