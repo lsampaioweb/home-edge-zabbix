@@ -1,0 +1,14 @@
+Name              : Zabbix - SLA
+SLO               : 99
+Reporting period  : Monthly
+Time zone         : (UTC-03:00) America/Maceio
+Schedule          : 24x7
+Effective date    : 2023-08-01
+
+Service tags
+  service : zabbix
+  service : zabbix-apache
+  service : zabbix-postgresql
+  service : zabbix-zabbix-agent
+
+Enabled : Checked

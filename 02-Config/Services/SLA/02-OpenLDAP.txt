@@ -1,0 +1,13 @@
+Name              : OpenLDAP - SLA
+SLO               : 99
+Reporting period  : Monthly
+Time zone         : (UTC-03:00) America/Maceio
+Schedule          : 24x7
+Effective date    : 2023-08-01
+
+Service tags
+  service : openldap
+  service : openldap-apache
+  service : openldap-slapd
+
+Enabled : Checked

@@ -1,0 +1,13 @@
+Name              : Grafana - SLA
+SLO               : 99
+Reporting period  : Monthly
+Time zone         : (UTC-03:00) America/Maceio
+Schedule          : 24x7
+Effective date    : 2023-08-01
+
+Service tags
+  service : grafana
+  service : grafana-apache
+  service : grafana-postgresql
+
+Enabled : Checked
