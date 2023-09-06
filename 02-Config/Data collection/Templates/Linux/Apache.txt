@@ -1,0 +1,7 @@
+Template  : Apache by Zabbix agent
+
+Macro     : {$APACHE.STATUS.PORT}
+Value     : 443
+
+Macro     : {$APACHE.STATUS.SCHEME}
+Value     : https
