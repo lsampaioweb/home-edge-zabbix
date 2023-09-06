@@ -1,0 +1,6 @@
+Media:
+  Type            : Telegram
+  Send to         : Keychain: "edge-zabbix-01-telegram-home-group-id"
+  When active     : 1-7,00:00-24:00
+  Use if severity : Average, High, Disaster
+  Enabled         : Checked

@@ -1,0 +1,10 @@
+Template            : Template Net Fortinet FortiGate SNMP
+Discovered by	      : SD-WAN Health Check Discovery
+Item prototypes     : Health Check State to {#HC_NAME} on SD-WAN member {#MEMBER_SEQ}
+Tags                :
+	member            : {#MEMBER_SEQ}
+
+Trigger prototypes  : Health Check State Failed to {#HC_NAME} on member {#MEMBER_SEQ}
+Trigger:
+	scope  			      : availability
+
