@@ -5,6 +5,6 @@ Tags                :
 	member            : {#MEMBER_SEQ}
 
 Trigger prototypes  : Health Check State Failed to {#HC_NAME} on member {#MEMBER_SEQ}
-Trigger:
+Tags:
 	scope  			      : availability
 
