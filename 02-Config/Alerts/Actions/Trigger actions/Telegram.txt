@@ -1,0 +1,26 @@
+Action:
+  Name        : Telegram Notification
+  Conditions  :
+    Label     :	A
+    Name      :	Trigger severity is greater than or equals Warning
+
+  Enabled     : Checked
+
+Operations:
+  Default operation step duration : 1h
+
+  Operations:
+    Steps    : 1
+    Details  : Send message to user groups: Monitoring Admins via Telegrams
+    Start in : Immediately
+    Duration : Default
+
+  Recovery operations
+    Details	 : Send message to user groups: Monitoring Admins via Telegram
+
+  Update operations
+    Details  : Send message to user groups: Monitoring Admins via Telegram
+
+Pause operations for symptom problems    : Checked
+Pause operations for suppressed problems : Checked
+Notify about canceled escalations        : Checked

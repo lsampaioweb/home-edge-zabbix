@@ -15,9 +15,9 @@ Interfaces  :
   Security name             : edge-esxi-01-zabbix-user
   Security level            : authPriv
   Authentication protocol   : SHA1
-  Authentication passphrase : Keychain: edge-esxi-01-zabbix-user
+  Authentication passphrase : Keychain: "edge-esxi-01-zabbix-user"
   Privacy protocol          : AES128
-  Privacy passphrase        : Keychain: edge-esxi-01-zabbix-user
+  Privacy passphrase        : Keychain: "edge-esxi-01-zabbix-user"
   Use combined requests     : Checked
 
 Description         : 
