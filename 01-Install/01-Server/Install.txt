@@ -83,6 +83,7 @@
   echo "zabbix ALL=(ALL:ALL) NOPASSWD:/usr/bin/nmap" | sudo tee -a /etc/sudoers.d/zabbix
 
 09 - Start Zabbix server and agent processes
+  sudo systemctl enable zabbix-server &&
   sudo systemctl restart zabbix-server
 
   Check the logs.

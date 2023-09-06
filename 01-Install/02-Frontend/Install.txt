@@ -23,6 +23,7 @@
     sudo systemctl restart apache2
 
 03 - Start Apache
+  sudo systemctl enable apache2 &&
   sudo systemctl restart apache2
 
 04 - Open Zabbix UI web page:

@@ -18,8 +18,8 @@
   Hostname=edge-zabbix-01
 
 04 - Start and Enable Zabbix Agent Service
-  sudo systemctl restart zabbix-agent2 &&
-  sudo systemctl enable zabbix-agent2
+  sudo systemctl enable zabbix-agent2 &&
+  sudo systemctl restart zabbix-agent2
 
   Check the logs:
     cat /var/log/zabbix/zabbix_agent2.log
