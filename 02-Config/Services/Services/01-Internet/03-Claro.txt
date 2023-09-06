@@ -1,0 +1,23 @@
+Service:
+  Name                    : Claro is running
+  Parent services         : Internet
+
+  Problem tags:
+    Name  : firewall
+    Value : fortigate
+    Name  : Application
+    Value : SD-WAN
+    Name  : member
+    Value : 2
+    Name  : scope
+    Value : availability
+
+  Sort order (0->999)     : 3
+  Status calculation rule : Most critical of child services
+  Description             : Monitor the Claro ISP provider.
+
+  Advanced configuration  : Unchecked
+
+Tags:
+  Name	: service
+  Value : internet-claro

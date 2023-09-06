@@ -1,0 +1,21 @@
+Service:
+  Name                    : PostgreSQL is running
+  Parent services         : Grafana
+
+  Problem tags:
+    Name  : database
+    Value : grafana
+    Name  : target
+    Value : postgresql
+    Name  : scope
+    Value : availability
+
+  Sort order (0->999)     : 2
+  Status calculation rule : Most critical of child services
+  Description             : Monitor the PostgreSQL application.
+
+  Advanced configuration  : Unchecked
+
+Tags:
+  Name	: service
+  Value : grafana-postgresql

@@ -1,0 +1,21 @@
+Service:
+  Name                    : Slapd is running
+  Parent services         : OpenLDAP
+
+  Problem tags:
+    Name  : backend
+    Value : openldap
+    Name  : target
+    Value : slapd.service
+    Name  : scope
+    Value : availability
+
+  Sort order (0->999)     : 2
+  Status calculation rule : Most critical of child services
+  Description             : Monitor the Slapd application.
+
+  Advanced configuration  : Unchecked
+
+Tags:
+  Name	: service
+  Value : openldap-slapd

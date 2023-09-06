@@ -1,0 +1,20 @@
+Service:
+  Name                    : OpenLDAP
+  Parent services         :
+  Sort order (0->999)     : 1
+  Status calculation rule : Set status to OK
+  Description             : Monitor the OpenLDAP application.
+
+  Advanced configuration  : Checked
+    Additional rule:
+      Set status to : High
+      Condition     : If at least N% of child services have Status status or above
+      N             : 50
+      Status        : Average
+
+  Status propagation rule : As is
+  Weight                  : 0
+
+Tags:
+  Name	: service
+  Value : openldap
