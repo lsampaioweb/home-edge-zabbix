@@ -1,0 +1,8 @@
+Generate the backup file.
+  sudo -su postgres
+  cd
+  pg_dump -h edge-postgresql-01.homelab -U zabbix -d zabbix > zabbix_dump.sql
+    Password: '<Keychain: "edge-zabbix-01-db-user">'
+
+Copy the file from the server to my Macbook.
+  rsync -avh -e ssh lsampaio-postgresql-team@edge-postgresql-01.homelab:/var/lib/postgresql/backup/ 04-Backup/Database/
