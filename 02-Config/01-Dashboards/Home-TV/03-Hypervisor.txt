@@ -1,0 +1,16 @@
+Page: Hypervisor
+
+Widgets:
+  01 - 
+    Uptime
+    Memory utilization
+    CPU utilization
+
+  02 -
+    Disk utilization
+
+  03 -
+    Network utilization - Interfaces
+    Network utilization - Management
+    Network utilization - Core
+    Network utilization - Monitoring

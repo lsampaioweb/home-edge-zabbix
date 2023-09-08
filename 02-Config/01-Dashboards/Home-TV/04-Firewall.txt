@@ -1,0 +1,23 @@
+Page: Firewall
+
+Widgets:
+  01 - 
+    Uptime
+    Memory utilization
+    CPU utilization
+
+  02 -
+    DigitalNET
+    Claro
+    Interfaces
+
+  03 -
+    LAG-Home
+    Home-Management
+    Home-Core
+    Home-Monitoring
+
+  04 -
+    Packet Loss
+    Jitter
+    Latency

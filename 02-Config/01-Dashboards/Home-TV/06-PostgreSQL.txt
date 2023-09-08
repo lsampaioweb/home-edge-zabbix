@@ -1,0 +1,16 @@
+Page: PostgreSQL
+
+Widgets:
+  01 - 
+    Uptime
+    Memory utilization
+    CPU utilization
+    Network utilization
+
+  02 -
+    Disk utilization
+    Disk read and write (rate)
+
+  03 -
+    Database size - Postgres
+    Database size - Zabbix

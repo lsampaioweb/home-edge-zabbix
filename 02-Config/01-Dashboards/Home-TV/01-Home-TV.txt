@@ -1,0 +1,5 @@
+Dashboard properties
+  Owner                         : lsampaio-zabbix-team (Luciano Sampaio Zabbix Team)
+  Name                          : Home-TV
+  Default page display period   : 30 seconds
+  Start slideshow automatically : Checked

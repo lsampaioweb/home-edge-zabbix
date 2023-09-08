@@ -1,0 +1,12 @@
+Page: General
+
+Widgets:
+  01 - 
+    Top hosts by CPU utilization
+    Internet
+    LDAP
+    Grafana
+
+  02 -
+    System Information
+    Current problems
