@@ -1,0 +1,3466 @@
+{
+  "jsonrpc": "2.0",
+  "result": [
+    {
+      "dashboardid": "296",
+      "name": "Home-TV",
+      "userid": "3",
+      "private": "0",
+      "display_period": "30",
+      "auto_start": "1",
+      "uuid": "",
+      "pages": [
+        {
+          "dashboard_pageid": "6183",
+          "name": "General",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18346",
+              "type": "tophosts",
+              "name": "Top hosts by CPU utilization",
+              "x": "0",
+              "y": "0",
+              "width": "7",
+              "height": "4",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "20"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "22"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "7"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "24"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "2"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "25"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "23"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "6"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "4"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.0",
+                  "value": "Host"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.0",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.0",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.0",
+                  "value": "2"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.0",
+                  "value": ""
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.1",
+                  "value": "Utilization"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.1",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.item.1",
+                  "value": "Linux: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.timeshift.1",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.1",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.min.1",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.max.1",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.1",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.display.1",
+                  "value": "3"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.history.1",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.1",
+                  "value": ""
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.color.1.0",
+                  "value": "80FF00"
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.threshold.1.0",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.color.1.1",
+                  "value": "FFFF00"
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.threshold.1.1",
+                  "value": "50"
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.color.1.2",
+                  "value": "FF4000"
+                },
+                {
+                  "type": "1",
+                  "name": "columnsthresholds.threshold.1.2",
+                  "value": "85"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.2",
+                  "value": "1m avg"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.2",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.item.2",
+                  "value": "Linux: Load average (1m avg)"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.timeshift.2",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.2",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.2",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.display.2",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.history.2",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.2",
+                  "value": ""
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.3",
+                  "value": "5m avg"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.3",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.item.3",
+                  "value": "Linux: Load average (5m avg)"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.timeshift.3",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.3",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.3",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.display.3",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.history.3",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.3",
+                  "value": ""
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.4",
+                  "value": "15m avg"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.4",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.item.4",
+                  "value": "Linux: Load average (15m avg)"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.timeshift.4",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.4",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.4",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.display.4",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.history.4",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.4",
+                  "value": ""
+                },
+                {
+                  "type": "1",
+                  "name": "columns.name.5",
+                  "value": "Processes"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.data.5",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.item.5",
+                  "value": "Linux: Number of processes"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.timeshift.5",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "columns.aggregate_function.5",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.decimal_places.5",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.display.5",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "columns.history.5",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "columns.base_color.5",
+                  "value": ""
+                },
+                {
+                  "type": "0",
+                  "name": "column",
+                  "value": "1"
+                }
+              ]
+            },
+            {
+              "widgetid": "18347",
+              "type": "systeminfo",
+              "name": "System Information",
+              "x": "0",
+              "y": "4",
+              "width": "7",
+              "height": "6",
+              "view_mode": "0",
+              "fields": []
+            },
+            {
+              "widgetid": "18348",
+              "type": "problems",
+              "name": "Current problems",
+              "x": "7",
+              "y": "4",
+              "width": "17",
+              "height": "6",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "20"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "22"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "7"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "24"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "2"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "25"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "23"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "6"
+                },
+                {
+                  "type": "2",
+                  "name": "groupids",
+                  "value": "4"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "3"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "4"
+                },
+                {
+                  "type": "0",
+                  "name": "severities",
+                  "value": "5"
+                },
+                {
+                  "type": "0",
+                  "name": "show_timeline",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "show_tags",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "3"
+                }
+              ]
+            },
+            {
+              "widgetid": "18349",
+              "type": "slareport",
+              "name": "Internet",
+              "x": "7",
+              "y": "0",
+              "width": "6",
+              "height": "4",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "0",
+                  "name": "rf_rate",
+                  "value": "900"
+                },
+                {
+                  "type": "10",
+                  "name": "slaid",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "show_periods",
+                  "value": "3"
+                }
+              ]
+            },
+            {
+              "widgetid": "18350",
+              "type": "slareport",
+              "name": "LDAP",
+              "x": "13",
+              "y": "0",
+              "width": "6",
+              "height": "4",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "0",
+                  "name": "rf_rate",
+                  "value": "900"
+                },
+                {
+                  "type": "10",
+                  "name": "slaid",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "show_periods",
+                  "value": "3"
+                }
+              ]
+            },
+            {
+              "widgetid": "18351",
+              "type": "slareport",
+              "name": "Grafana",
+              "x": "19",
+              "y": "0",
+              "width": "5",
+              "height": "4",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "0",
+                  "name": "rf_rate",
+                  "value": "900"
+                },
+                {
+                  "type": "10",
+                  "name": "slaid",
+                  "value": "4"
+                },
+                {
+                  "type": "0",
+                  "name": "show_periods",
+                  "value": "3"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6184",
+          "name": "Home Diagram",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18373",
+              "type": "map",
+              "name": "Home",
+              "x": "0",
+              "y": "0",
+              "width": "13",
+              "height": "12",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "8",
+                  "name": "sysmapid",
+                  "value": "1"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6194",
+          "name": "Hypervisor",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18412",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                },
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "50085"
+                }
+              ]
+            },
+            {
+              "widgetid": "18413",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "VMware: Used memory"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18414",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "VMware: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18416",
+              "type": "svggraph",
+              "name": "DIsk utilization",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "/vmfs/volumes/64f4a440-ce1a64d6-651e-60beb408f766: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "/vmfs/volumes/64f4a440-b7a3ae78-7908-60beb408f766: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "/vmfs/volumes/64ed3be0-56ee94c6-362c-60beb408f766: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                }
+              ]
+            },
+            {
+              "widgetid": "18422",
+              "type": "svggraph",
+              "name": "Network utilization - Interfaces",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface vmnic0(02:00.0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface vmnic1(03:00.0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "Interface vmnic2(04:00.0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "Interface vmnic3(05:00.0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.4",
+                  "value": "Interface vmnic0(02:00.0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.5",
+                  "value": "Interface vmnic1(03:00.0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.6",
+                  "value": "Interface vmnic2(04:00.0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.7",
+                  "value": "Interface vmnic3(05:00.0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18423",
+              "type": "svggraph",
+              "name": "Network utilization - Management",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface Management Network(vSwitch0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface Management Network(vSwitch0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18424",
+              "type": "svggraph",
+              "name": "Network utilization - Core",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface VMs-Core(vSwitch0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface VMs-Core(vSwitch0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18425",
+              "type": "svggraph",
+              "name": "Network utilization - Monitoring",
+              "x": "18",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-esxi-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface VMs-Monitoring(vSwitch0): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface VMs-Monitoring(vSwitch0): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6186",
+          "name": "Firewall",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18359",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "50234"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                }
+              ]
+            },
+            {
+              "widgetid": "18361",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Memory usage"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18362",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "12",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Average Usage over 1min per Core #2"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "Average Usage over 1min per Core #3"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "Average Usage over 1min per Core #4"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Average Usage over 1min per Core #1"
+                }
+              ]
+            },
+            {
+              "widgetid": "18363",
+              "type": "svggraph",
+              "name": "DigitalNET",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface wan1(DigitalNET): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface wan1(DigitalNET): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18364",
+              "type": "svggraph",
+              "name": "Claro",
+              "x": "6",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface wan2(Claro): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface wan2(Claro): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18365",
+              "type": "svggraph",
+              "name": "Interfaces",
+              "x": "12",
+              "y": "3",
+              "width": "12",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface wan1(DigitalNET): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface wan1(DigitalNET): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "Interface wan2(Claro): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "Interface wan2(Claro): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18366",
+              "type": "svggraph",
+              "name": "LAG-Home",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface LAG-Home(): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface LAG-Home(): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18367",
+              "type": "svggraph",
+              "name": "Home-Management",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface VL-Home-Device(): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface VL-Home-Device(): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18368",
+              "type": "svggraph",
+              "name": "Home-Core",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface VL-Home-Core(): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface VL-Home-Core(): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18369",
+              "type": "svggraph",
+              "name": "Home-Monitoring",
+              "x": "18",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface VL-Home-Monitor(): Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface VL-Home-Monitor(): Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18370",
+              "type": "svggraph",
+              "name": "Packet Loss",
+              "x": "0",
+              "y": "9",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Packet Loss to Google on SD-WAN member 1"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Packet Loss to Google on SD-WAN member 2"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18371",
+              "type": "svggraph",
+              "name": "Jitter",
+              "x": "6",
+              "y": "9",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Jitter to Google on SD-WAN member 1"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Jitter to Google on SD-WAN member 2"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18372",
+              "type": "svggraph",
+              "name": "Latency",
+              "x": "12",
+              "y": "9",
+              "width": "12",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-firewall-01-snmp"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Latency to Google on SD-WAN member 1"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Latency to Google on SD-WAN member 2"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6187",
+          "name": "OpenLDAP",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18374",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "50480"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                }
+              ]
+            },
+            {
+              "widgetid": "18375",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Memory utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18376",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18377",
+              "type": "svggraph",
+              "name": "DIsk utilization",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "/boot: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "/: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "/var: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "/home: Space utilization"
+                }
+              ]
+            },
+            {
+              "widgetid": "18379",
+              "type": "svggraph",
+              "name": "Apache Requests per second",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Requests per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18397",
+              "type": "svggraph",
+              "name": "Apache Response time",
+              "x": "18",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Service response time"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18398",
+              "type": "svggraph",
+              "name": "Apache Bytes per second",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Bytes per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18405",
+              "type": "svggraph",
+              "name": "DIsk read and write (rate)",
+              "x": "6",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "sda: Disk read time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "sda: Disk write time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18378",
+              "type": "svggraph",
+              "name": "Network utilization",
+              "x": "18",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface eth0: Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface eth0: Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18409",
+              "type": "svggraph",
+              "name": "Apache Workers (Idle and Busy)",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Total workers idle"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Apache: Total workers busy"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6193",
+          "name": "PostgreSQL",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18392",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "50727"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                }
+              ]
+            },
+            {
+              "widgetid": "18393",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Memory utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18394",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18395",
+              "type": "svggraph",
+              "name": "DIsk utilization",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "/boot: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "/: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "/var: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "/home: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.4",
+                  "value": "/var/lib/postgresql: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18396",
+              "type": "svggraph",
+              "name": "Network utilization",
+              "x": "18",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface eth0: Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface eth0: Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18404",
+              "type": "svggraph",
+              "name": "Database size - Zabbix",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "DB [zabbix]: Database size"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18403",
+              "type": "svggraph",
+              "name": "Database size - Postgres",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "DB [postgres]: Database size"
+                }
+              ]
+            },
+            {
+              "widgetid": "18406",
+              "type": "svggraph",
+              "name": "DIsk read and write (rate)",
+              "x": "6",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "sda: Disk read time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "sda: Disk write time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6191",
+          "name": "Zabbix",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18380",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "51473"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                }
+              ]
+            },
+            {
+              "widgetid": "18381",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Memory utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18382",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18385",
+              "type": "svggraph",
+              "name": "Apache Requests per second",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Requests per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18399",
+              "type": "svggraph",
+              "name": "Apache Bytes per second",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Bytes per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18400",
+              "type": "svggraph",
+              "name": "Apache Response time",
+              "x": "18",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Service response time"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18407",
+              "type": "svggraph",
+              "name": "DIsk read and write (rate)",
+              "x": "6",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "sda: Disk read time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "sda: Disk write time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18383",
+              "type": "svggraph",
+              "name": "DIsk utilization",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "/boot: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "/: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "/var: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "/home: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18384",
+              "type": "svggraph",
+              "name": "Network utilization",
+              "x": "18",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface eth0: Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface eth0: Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18410",
+              "type": "svggraph",
+              "name": "Apache Workers (Idle and Busy)",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Total workers idle"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Apache: Total workers busy"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "dashboard_pageid": "6192",
+          "name": "Grafana",
+          "display_period": "0",
+          "widgets": [
+            {
+              "widgetid": "18386",
+              "type": "item",
+              "name": "Uptime",
+              "x": "0",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "51652"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "units_size",
+                  "value": "30"
+                }
+              ]
+            },
+            {
+              "widgetid": "18387",
+              "type": "svggraph",
+              "name": "Memory utilization",
+              "x": "6",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Memory utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18388",
+              "type": "svggraph",
+              "name": "CPU utilization",
+              "x": "12",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: CPU utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18391",
+              "type": "svggraph",
+              "name": "Apache Requests per second",
+              "x": "0",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Requests per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18401",
+              "type": "svggraph",
+              "name": "Apache Bytes per second",
+              "x": "6",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Bytes per second"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18402",
+              "type": "svggraph",
+              "name": "Apache Response time",
+              "x": "18",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Service response time"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18408",
+              "type": "svggraph",
+              "name": "DIsk read and write (rate)",
+              "x": "6",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "sda: Disk read time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "sda: Disk write time (rate)"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18389",
+              "type": "svggraph",
+              "name": "DIsk utilization",
+              "x": "0",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "/boot: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "/: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.2",
+                  "value": "/var: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.3",
+                  "value": "/home: Space utilization"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_min",
+                  "value": "0"
+                },
+                {
+                  "type": "1",
+                  "name": "lefty_max",
+                  "value": "100"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18390",
+              "type": "svggraph",
+              "name": "Network utilization",
+              "x": "18",
+              "y": "0",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Interface eth0: Bits sent"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Interface eth0: Bits received"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "widgetid": "18411",
+              "type": "svggraph",
+              "name": "Apache Workers (Idle and Busy)",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Apache: Total workers idle"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.1",
+                  "value": "Apache: Total workers busy"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "users": [],
+      "userGroups": []
+    }
+  ],
+  "id": 1
+}

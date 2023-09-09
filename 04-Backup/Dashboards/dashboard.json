@@ -1,0 +1,14 @@
+{
+  "jsonrpc": "2.0",
+  "method": "dashboard.get",
+  "params": {
+    "output": "extend",
+    "selectPages": "extend",
+    "selectUsers": "extend",
+    "selectUserGroups": "extend",
+    "dashboardids": [
+      "296"
+    ]
+  },
+  "id": 1
+}

@@ -1,0 +1,12 @@
+01 - Test that everything is working.
+  curl --request POST \
+    --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
+    --header 'Content-Type: application/json-rpc' \
+    --data @info.json
+
+02 - Get all the information about the Home-TV dashboard.
+  curl --request POST \
+    --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
+    --header 'Content-Type: application/json-rpc' \
+    --header 'Authorization: Bearer XXXXX' \
+    --data @dashboard.json > backup.json

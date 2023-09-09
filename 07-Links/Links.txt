@@ -3,3 +3,6 @@
 
 02 - How to Install Zabbix Agent on Ubuntu 22.04
   https://tecadmin.net/how-to-install-zabbix-agent-on-ubuntu-22-04/
+
+03 - The Zabbix API allows you to programmatically retrieve and modify configuration of Zabbix and provides access to historical data.
+  https://www.zabbix.com/documentation/current/en/manual/api
