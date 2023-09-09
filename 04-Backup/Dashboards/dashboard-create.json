@@ -1,22 +1,19 @@
 {
   "jsonrpc": "2.0",
-  "result": [
+  "method": "dashboard.create",
+  "params":
     {
-      "dashboardid": "296",
       "name": "Home-TV",
       "userid": "3",
       "private": "0",
       "display_period": "30",
       "auto_start": "1",
-      "uuid": "",
       "pages": [
         {
-          "dashboard_pageid": "6183",
           "name": "General",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18346",
               "type": "tophosts",
               "name": "Top hosts by CPU utilization",
               "x": "0",
@@ -368,7 +365,6 @@
               ]
             },
             {
-              "widgetid": "18347",
               "type": "systeminfo",
               "name": "System Information",
               "x": "0",
@@ -379,7 +375,6 @@
               "fields": []
             },
             {
-              "widgetid": "18348",
               "type": "problems",
               "name": "Current problems",
               "x": "7",
@@ -481,7 +476,6 @@
               ]
             },
             {
-              "widgetid": "18349",
               "type": "slareport",
               "name": "Internet",
               "x": "7",
@@ -508,7 +502,6 @@
               ]
             },
             {
-              "widgetid": "18350",
               "type": "slareport",
               "name": "LDAP",
               "x": "13",
@@ -535,7 +528,6 @@
               ]
             },
             {
-              "widgetid": "18351",
               "type": "slareport",
               "name": "Grafana",
               "x": "19",
@@ -564,12 +556,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6184",
           "name": "Home Diagram",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18373",
               "type": "map",
               "name": "Home",
               "x": "0",
@@ -588,12 +578,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6194",
           "name": "Hypervisor",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18412",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -625,7 +613,6 @@
               ]
             },
             {
-              "widgetid": "18413",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -672,7 +659,6 @@
               ]
             },
             {
-              "widgetid": "18414",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -714,7 +700,6 @@
               ]
             },
             {
-              "widgetid": "18416",
               "type": "svggraph",
               "name": "DIsk utilization",
               "x": "0",
@@ -776,7 +761,6 @@
               ]
             },
             {
-              "widgetid": "18422",
               "type": "svggraph",
               "name": "Network utilization - Interfaces",
               "x": "0",
@@ -853,7 +837,6 @@
               ]
             },
             {
-              "widgetid": "18423",
               "type": "svggraph",
               "name": "Network utilization - Management",
               "x": "6",
@@ -900,7 +883,6 @@
               ]
             },
             {
-              "widgetid": "18424",
               "type": "svggraph",
               "name": "Network utilization - Core",
               "x": "12",
@@ -947,7 +929,6 @@
               ]
             },
             {
-              "widgetid": "18425",
               "type": "svggraph",
               "name": "Network utilization - Monitoring",
               "x": "18",
@@ -996,12 +977,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6186",
           "name": "Firewall",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18359",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -1033,7 +1012,6 @@
               ]
             },
             {
-              "widgetid": "18361",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -1085,7 +1063,6 @@
               ]
             },
             {
-              "widgetid": "18362",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -1152,7 +1129,6 @@
               ]
             },
             {
-              "widgetid": "18363",
               "type": "svggraph",
               "name": "DigitalNET",
               "x": "0",
@@ -1199,7 +1175,6 @@
               ]
             },
             {
-              "widgetid": "18364",
               "type": "svggraph",
               "name": "Claro",
               "x": "6",
@@ -1246,7 +1221,6 @@
               ]
             },
             {
-              "widgetid": "18365",
               "type": "svggraph",
               "name": "Interfaces",
               "x": "12",
@@ -1303,7 +1277,6 @@
               ]
             },
             {
-              "widgetid": "18366",
               "type": "svggraph",
               "name": "LAG-Home",
               "x": "0",
@@ -1350,7 +1323,6 @@
               ]
             },
             {
-              "widgetid": "18367",
               "type": "svggraph",
               "name": "Home-Management",
               "x": "6",
@@ -1397,7 +1369,6 @@
               ]
             },
             {
-              "widgetid": "18368",
               "type": "svggraph",
               "name": "Home-Core",
               "x": "12",
@@ -1444,7 +1415,6 @@
               ]
             },
             {
-              "widgetid": "18369",
               "type": "svggraph",
               "name": "Home-Monitoring",
               "x": "18",
@@ -1491,7 +1461,6 @@
               ]
             },
             {
-              "widgetid": "18370",
               "type": "svggraph",
               "name": "Packet Loss",
               "x": "0",
@@ -1538,7 +1507,6 @@
               ]
             },
             {
-              "widgetid": "18371",
               "type": "svggraph",
               "name": "Jitter",
               "x": "6",
@@ -1585,7 +1553,6 @@
               ]
             },
             {
-              "widgetid": "18372",
               "type": "svggraph",
               "name": "Latency",
               "x": "12",
@@ -1634,12 +1601,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6187",
           "name": "OpenLDAP",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18374",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -1671,7 +1636,6 @@
               ]
             },
             {
-              "widgetid": "18375",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -1723,7 +1687,6 @@
               ]
             },
             {
-              "widgetid": "18376",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -1775,7 +1738,6 @@
               ]
             },
             {
-              "widgetid": "18377",
               "type": "svggraph",
               "name": "DIsk utilization",
               "x": "0",
@@ -1842,7 +1804,6 @@
               ]
             },
             {
-              "widgetid": "18379",
               "type": "svggraph",
               "name": "Apache Requests per second",
               "x": "0",
@@ -1884,7 +1845,6 @@
               ]
             },
             {
-              "widgetid": "18397",
               "type": "svggraph",
               "name": "Apache Response time",
               "x": "18",
@@ -1926,7 +1886,6 @@
               ]
             },
             {
-              "widgetid": "18398",
               "type": "svggraph",
               "name": "Apache Bytes per second",
               "x": "6",
@@ -1968,7 +1927,6 @@
               ]
             },
             {
-              "widgetid": "18405",
               "type": "svggraph",
               "name": "DIsk read and write (rate)",
               "x": "6",
@@ -2015,7 +1973,6 @@
               ]
             },
             {
-              "widgetid": "18378",
               "type": "svggraph",
               "name": "Network utilization",
               "x": "18",
@@ -2062,7 +2019,6 @@
               ]
             },
             {
-              "widgetid": "18409",
               "type": "svggraph",
               "name": "Apache Workers (Idle and Busy)",
               "x": "12",
@@ -2111,12 +2067,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6193",
           "name": "PostgreSQL",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18392",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -2148,7 +2102,6 @@
               ]
             },
             {
-              "widgetid": "18393",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -2200,7 +2153,6 @@
               ]
             },
             {
-              "widgetid": "18394",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -2252,7 +2204,6 @@
               ]
             },
             {
-              "widgetid": "18395",
               "type": "svggraph",
               "name": "DIsk utilization",
               "x": "0",
@@ -2324,7 +2275,6 @@
               ]
             },
             {
-              "widgetid": "18396",
               "type": "svggraph",
               "name": "Network utilization",
               "x": "18",
@@ -2371,7 +2321,6 @@
               ]
             },
             {
-              "widgetid": "18404",
               "type": "svggraph",
               "name": "Database size - Zabbix",
               "x": "6",
@@ -2413,7 +2362,6 @@
               ]
             },
             {
-              "widgetid": "18403",
               "type": "svggraph",
               "name": "Database size - Postgres",
               "x": "0",
@@ -2455,7 +2403,6 @@
               ]
             },
             {
-              "widgetid": "18406",
               "type": "svggraph",
               "name": "DIsk read and write (rate)",
               "x": "6",
@@ -2504,12 +2451,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6191",
           "name": "Zabbix",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18380",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -2541,7 +2486,6 @@
               ]
             },
             {
-              "widgetid": "18381",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -2593,7 +2537,6 @@
               ]
             },
             {
-              "widgetid": "18382",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -2645,7 +2588,6 @@
               ]
             },
             {
-              "widgetid": "18385",
               "type": "svggraph",
               "name": "Apache Requests per second",
               "x": "0",
@@ -2687,7 +2629,6 @@
               ]
             },
             {
-              "widgetid": "18399",
               "type": "svggraph",
               "name": "Apache Bytes per second",
               "x": "6",
@@ -2729,7 +2670,6 @@
               ]
             },
             {
-              "widgetid": "18400",
               "type": "svggraph",
               "name": "Apache Response time",
               "x": "18",
@@ -2771,7 +2711,6 @@
               ]
             },
             {
-              "widgetid": "18407",
               "type": "svggraph",
               "name": "DIsk read and write (rate)",
               "x": "6",
@@ -2818,7 +2757,6 @@
               ]
             },
             {
-              "widgetid": "18383",
               "type": "svggraph",
               "name": "DIsk utilization",
               "x": "0",
@@ -2885,7 +2823,6 @@
               ]
             },
             {
-              "widgetid": "18384",
               "type": "svggraph",
               "name": "Network utilization",
               "x": "18",
@@ -2932,7 +2869,6 @@
               ]
             },
             {
-              "widgetid": "18410",
               "type": "svggraph",
               "name": "Apache Workers (Idle and Busy)",
               "x": "12",
@@ -2981,12 +2917,10 @@
           ]
         },
         {
-          "dashboard_pageid": "6192",
           "name": "Grafana",
           "display_period": "0",
           "widgets": [
             {
-              "widgetid": "18386",
               "type": "item",
               "name": "Uptime",
               "x": "0",
@@ -3018,7 +2952,6 @@
               ]
             },
             {
-              "widgetid": "18387",
               "type": "svggraph",
               "name": "Memory utilization",
               "x": "6",
@@ -3070,7 +3003,6 @@
               ]
             },
             {
-              "widgetid": "18388",
               "type": "svggraph",
               "name": "CPU utilization",
               "x": "12",
@@ -3122,7 +3054,6 @@
               ]
             },
             {
-              "widgetid": "18391",
               "type": "svggraph",
               "name": "Apache Requests per second",
               "x": "0",
@@ -3164,7 +3095,6 @@
               ]
             },
             {
-              "widgetid": "18401",
               "type": "svggraph",
               "name": "Apache Bytes per second",
               "x": "6",
@@ -3206,7 +3136,6 @@
               ]
             },
             {
-              "widgetid": "18402",
               "type": "svggraph",
               "name": "Apache Response time",
               "x": "18",
@@ -3248,7 +3177,6 @@
               ]
             },
             {
-              "widgetid": "18408",
               "type": "svggraph",
               "name": "DIsk read and write (rate)",
               "x": "6",
@@ -3295,7 +3223,6 @@
               ]
             },
             {
-              "widgetid": "18389",
               "type": "svggraph",
               "name": "DIsk utilization",
               "x": "0",
@@ -3362,7 +3289,6 @@
               ]
             },
             {
-              "widgetid": "18390",
               "type": "svggraph",
               "name": "Network utilization",
               "x": "18",
@@ -3409,7 +3335,6 @@
               ]
             },
             {
-              "widgetid": "18411",
               "type": "svggraph",
               "name": "Apache Workers (Idle and Busy)",
               "x": "12",
@@ -3460,7 +3385,6 @@
       ],
       "users": [],
       "userGroups": []
-    }
-  ],
+    },
   "id": 1
 }

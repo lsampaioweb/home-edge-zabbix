@@ -4,9 +4,24 @@
     --header 'Content-Type: application/json-rpc' \
     --data @info.json
 
-02 - Get all the information about the Home-TV dashboard.
+02 - Export Zabbix Dashboard: Home-TV.
   curl --request POST \
     --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
     --header 'Content-Type: application/json-rpc' \
-    --header 'Authorization: Bearer XXXXX' \
-    --data @dashboard.json > backup.json
+    --header 'Authorization: Bearer XXXX' \
+    --data @dashboard-get.json > backup.json
+
+03 - Import Zabbix Dashboard: Home-TV.
+  Remove the:
+    result:[]
+  Add the:
+    "method": "dashboard.create",
+  Remove all the:
+    dashboard_pageid
+    widgetid
+
+  curl --request POST \
+    --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
+    --header 'Content-Type: application/json-rpc' \
+    --header 'Authorization: Bearer XXXX' \
+    --data @dashboard-create.json
