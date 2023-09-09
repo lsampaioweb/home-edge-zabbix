@@ -1,0 +1,44 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: dc579cd7a1a34222933f24f52a68bcd8
+      name: 'Linux servers'
+    - uuid: a8eba2bac7ff4ee1b25b166a14163f72
+      name: Monitoring
+    - uuid: 137f19e6e2dc4219b33553b812627bc2
+      name: 'Virtual machines'
+    - uuid: 6f6799aa69e844b4b3918f779f2abf08
+      name: 'Zabbix servers'
+  hosts:
+    - host: edge-zabbix-01
+      name: edge-zabbix-01
+      templates:
+        - name: 'Apache by Zabbix agent'
+        - name: 'Linux by Zabbix agent'
+        - name: 'Systemd by Zabbix agent 2'
+        - name: 'Website certificate by Zabbix agent 2'
+        - name: 'Zabbix server health'
+      groups:
+        - name: 'Linux servers'
+        - name: Monitoring
+        - name: 'Virtual machines'
+        - name: 'Zabbix servers'
+      interfaces:
+        - useip: 'NO'
+          ip: ''
+          dns: edge-zabbix-01.homelab
+          interface_ref: if1
+      tags:
+        - tag: backend
+          value: zabbix
+        - tag: frontend
+          value: zabbix
+      macros:
+        - macro: '{$CERT.WEBSITE.HOSTNAME}'
+          value: edge-zabbix-01.homelab
+      inventory:
+        name: edge-zabbix-01.homelab
+        os: 'Linux version 5.15.0-83-generic (buildd@lcy02-amd64-027) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ub'
+        location_lat: '56.95387'
+        location_lon: '24.22067'
+      inventory_mode: AUTOMATIC

@@ -1,0 +1,36 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: dc579cd7a1a34222933f24f52a68bcd8
+      name: 'Linux servers'
+    - uuid: a8eba2bac7ff4ee1b25b166a14163f72
+      name: Monitoring
+    - uuid: 137f19e6e2dc4219b33553b812627bc2
+      name: 'Virtual machines'
+  hosts:
+    - host: edge-grafana-01
+      name: edge-grafana-01
+      templates:
+        - name: 'Linux by Zabbix agent'
+        - name: 'Systemd by Zabbix agent 2'
+      groups:
+        - name: 'Linux servers'
+        - name: Monitoring
+        - name: 'Virtual machines'
+      interfaces:
+        - useip: 'NO'
+          ip: ''
+          dns: edge-grafana-01.homelab
+          interface_ref: if1
+      tags:
+        - tag: backend
+          value: grafana
+        - tag: frontend
+          value: grafana
+      macros:
+        - macro: '{$CERT.WEBSITE.HOSTNAME}'
+          value: edge-grafana-01.homelab
+      inventory:
+        name: edge-grafana-01.homelab
+        os: 'Linux version 5.15.0-83-generic (buildd@lcy02-amd64-027) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ub'
+      inventory_mode: AUTOMATIC

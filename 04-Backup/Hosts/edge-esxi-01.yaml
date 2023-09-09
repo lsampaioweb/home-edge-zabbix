@@ -1,0 +1,52 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: 1b837a3c078647049a0c00c61b4d57b5
+      name: Hypervisors
+    - uuid: dc579cd7a1a34222933f24f52a68bcd8
+      name: 'Linux servers'
+  hosts:
+    - host: edge-esxi-01
+      name: edge-esxi-01
+      templates:
+        - name: 'Linux by SNMP'
+        - name: 'VMware Hypervisor'
+      groups:
+        - name: Hypervisors
+        - name: 'Linux servers'
+      interfaces:
+        - type: SNMP
+          useip: 'NO'
+          ip: ''
+          dns: edge-esxi-01.homelab
+          port: '161'
+          details:
+            version: SNMPV3
+            contextname: esxi
+            securityname: edge-esxi-01-zabbix-user
+            securitylevel: AUTHPRIV
+            authprotocol: SHA1
+            authpassphrase: Keychain: "edge-esxi-01-zabbix-user"
+            privprotocol: AES128
+            privpassphrase: Keychain: "edge-esxi-01-zabbix-user"
+          interface_ref: if1
+      tags:
+        - tag: hypervisor
+          value: esxi
+      macros:
+        - macro: '{$VMWARE.HV.UUID}'
+          value: Keychain: "edge-esxi-01-uuid"
+        - macro: '{$VMWARE.PASSWORD}'
+          value: Keychain: "edge-esxi-01-zabbix-user"
+          description: 'VMware service {$USERNAME} user password'
+        - macro: '{$VMWARE.URL}'
+          value: 'https://edge-esxi-01.homelab/sdk'
+          description: 'VMware service (vCenter or ESX hypervisor) SDK URL (https://servername/sdk)'
+        - macro: '{$VMWARE.USERNAME}'
+          value: zabbix-user
+          description: 'VMware service user name'
+      inventory:
+        name: edge-esxi-01.homelab
+        contact: lsampaioweb@gmail.com
+        location: 'DC Home-Infra'
+      inventory_mode: AUTOMATIC

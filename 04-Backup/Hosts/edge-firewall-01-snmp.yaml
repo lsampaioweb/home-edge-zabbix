@@ -1,0 +1,35 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: 2cfe037d1dfd4031b0bcdf56fa007385
+      name: Firewall
+    - uuid: a2120ea17dea4e7a98d6960b89991a74
+      name: 'Network devices'
+  hosts:
+    - host: edge-firewall-01-snmp
+      name: edge-firewall-01-snmp
+      templates:
+        - name: 'Template Net Fortinet FortiGate SNMP'
+      groups:
+        - name: Firewall
+        - name: 'Network devices'
+      interfaces:
+        - type: SNMP
+          useip: 'NO'
+          ip: ''
+          dns: edge-firewall-01-snmp.homelab
+          port: '161'
+          details:
+            version: SNMPV3
+            contextname: 'Fortigate 80E'
+            securityname: edge-firewall-01-zabbix-user
+            securitylevel: AUTHPRIV
+            authprotocol: SHA256
+            authpassphrase: Keychain: "edge-firewall-01-zabbix-user"
+            privprotocol: AES256
+            privpassphrase: Keychain: "edge-firewall-01-zabbix-user"
+          interface_ref: if1
+      tags:
+        - tag: firewall
+          value: fortigate
+      inventory_mode: DISABLED

@@ -1,0 +1,41 @@
+zabbix_export:
+  version: '6.4'
+  host_groups:
+    - uuid: 748ad4d098d447d492bb935c907f652f
+      name: Databases
+    - uuid: dc579cd7a1a34222933f24f52a68bcd8
+      name: 'Linux servers'
+    - uuid: 137f19e6e2dc4219b33553b812627bc2
+      name: 'Virtual machines'
+  hosts:
+    - host: edge-postgresql-01
+      name: edge-postgresql-01
+      templates:
+        - name: 'Linux by Zabbix agent'
+        - name: 'PostgreSQL by Zabbix agent 2'
+        - name: 'Systemd by Zabbix agent 2'
+      groups:
+        - name: Databases
+        - name: 'Linux servers'
+        - name: 'Virtual machines'
+      interfaces:
+        - useip: 'NO'
+          ip: ''
+          dns: edge-postgresql-01.homelab
+          interface_ref: if1
+      tags:
+        - tag: database
+          value: grafana
+        - tag: database
+          value: zabbix
+      macros:
+        - macro: '{$PG.PASSWORD}'
+          value: keychain: "edge-postgresql-01-zabbix-monitor"
+          description: 'PostgreSQL user password.'
+        - macro: '{$PG.USER}'
+          value: zabbix_monitor
+          description: 'PostgreSQL username.'
+      inventory:
+        name: edge-postgresql-01.homelab
+        os: 'Linux version 5.15.0-83-generic (buildd@lcy02-amd64-027) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ub'
+      inventory_mode: AUTOMATIC
