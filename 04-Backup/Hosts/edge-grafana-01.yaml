@@ -11,8 +11,10 @@ zabbix_export:
     - host: edge-grafana-01
       name: edge-grafana-01
       templates:
+        - name: 'Apache by Zabbix agent'
         - name: 'Linux by Zabbix agent'
         - name: 'Systemd by Zabbix agent 2'
+        - name: 'Website certificate by Zabbix agent 2'
       groups:
         - name: 'Linux servers'
         - name: Monitoring
