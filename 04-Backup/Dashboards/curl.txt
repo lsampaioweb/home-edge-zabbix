@@ -9,14 +9,16 @@
     --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
     --header 'Content-Type: application/json-rpc' \
     --header 'Authorization: Bearer XXXX' \
-    --data @dashboard-get.json > backup.json
+    --data @dashboard-get.json > dashboard-create-backup.json
 
 03 - Import Zabbix Dashboard: Home-TV.
-  Remove the:
-    result:[]
-  Add the:
+  Add:
     "method": "dashboard.create",
+  Change:
+    result:[] por params: {}
   Remove all the:
+    dashboardid
+    uuid
     dashboard_pageid
     widgetid
 
