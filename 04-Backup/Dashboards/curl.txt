@@ -5,6 +5,7 @@
     --data @info.json
 
 02 - Export Zabbix Dashboard: Home-TV.
+  cd 04-Backup/Dashboards
   curl --request POST \
     --url 'https://edge-zabbix-01.homelab/api_jsonrpc.php' \
     --header 'Content-Type: application/json-rpc' \

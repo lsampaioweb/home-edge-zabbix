@@ -384,6 +384,11 @@
               "view_mode": "0",
               "fields": [
                 {
+                  "type": "0",
+                  "name": "show_lines",
+                  "value": "50"
+                },
+                {
                   "type": "2",
                   "name": "groupids",
                   "value": "20"
@@ -478,9 +483,9 @@
             {
               "type": "slareport",
               "name": "Internet",
-              "x": "7",
+              "x": "11",
               "y": "0",
-              "width": "6",
+              "width": "4",
               "height": "4",
               "view_mode": "0",
               "fields": [
@@ -504,9 +509,9 @@
             {
               "type": "slareport",
               "name": "LDAP",
-              "x": "13",
+              "x": "15",
               "y": "0",
-              "width": "6",
+              "width": "4",
               "height": "4",
               "view_mode": "0",
               "fields": [
@@ -550,6 +555,47 @@
                   "type": "0",
                   "name": "show_periods",
                   "value": "3"
+                }
+              ]
+            },
+            {
+              "type": "item",
+              "name": "Zabbix - Values per second",
+              "x": "7",
+              "y": "0",
+              "width": "4",
+              "height": "4",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "4",
+                  "name": "itemid",
+                  "value": "51406"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "2"
+                },
+                {
+                  "type": "0",
+                  "name": "show",
+                  "value": "4"
+                },
+                {
+                  "type": "0",
+                  "name": "adv_conf",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "value_size",
+                  "value": "35"
+                },
+                {
+                  "type": "0",
+                  "name": "units_bold",
+                  "value": "0"
                 }
               ]
             }
@@ -838,9 +884,9 @@
             },
             {
               "type": "svggraph",
-              "name": "Network utilization - Management",
+              "name": "Read and write latency - dt-esxi-01",
               "x": "6",
-              "y": "6",
+              "y": "3",
               "width": "6",
               "height": "3",
               "view_mode": "0",
@@ -853,12 +899,12 @@
                 {
                   "type": "1",
                   "name": "ds.items.0.0",
-                  "value": "Interface Management Network(vSwitch0): Bits received"
+                  "value": "VMware: Average read latency of the datastore dt-esxi-01"
                 },
                 {
                   "type": "1",
                   "name": "ds.items.0.1",
-                  "value": "Interface Management Network(vSwitch0): Bits sent"
+                  "value": "VMware: Average write latency of the datastore dt-esxi-01"
                 },
                 {
                   "type": "1",
@@ -884,9 +930,9 @@
             },
             {
               "type": "svggraph",
-              "name": "Network utilization - Core",
+              "name": "Read and write latency - dt-vms-01",
               "x": "12",
-              "y": "6",
+              "y": "3",
               "width": "6",
               "height": "3",
               "view_mode": "0",
@@ -899,58 +945,12 @@
                 {
                   "type": "1",
                   "name": "ds.items.0.0",
-                  "value": "Interface VMs-Core(vSwitch0): Bits received"
+                  "value": "VMware: Average read latency of the datastore dt-vms-01"
                 },
                 {
                   "type": "1",
                   "name": "ds.items.0.1",
-                  "value": "Interface VMs-Core(vSwitch0): Bits sent"
-                },
-                {
-                  "type": "1",
-                  "name": "ds.color.0",
-                  "value": "FF465C"
-                },
-                {
-                  "type": "0",
-                  "name": "simple_triggers",
-                  "value": "1"
-                },
-                {
-                  "type": "0",
-                  "name": "righty",
-                  "value": "0"
-                },
-                {
-                  "type": "0",
-                  "name": "legend",
-                  "value": "0"
-                }
-              ]
-            },
-            {
-              "type": "svggraph",
-              "name": "Network utilization - Monitoring",
-              "x": "18",
-              "y": "6",
-              "width": "6",
-              "height": "3",
-              "view_mode": "0",
-              "fields": [
-                {
-                  "type": "1",
-                  "name": "ds.hosts.0.0",
-                  "value": "edge-esxi-01"
-                },
-                {
-                  "type": "1",
-                  "name": "ds.items.0.0",
-                  "value": "Interface VMs-Monitoring(vSwitch0): Bits received"
-                },
-                {
-                  "type": "1",
-                  "name": "ds.items.0.1",
-                  "value": "Interface VMs-Monitoring(vSwitch0): Bits sent"
+                  "value": "VMware: Average write latency of the datastore dt-vms-01"
                 },
                 {
                   "type": "1",
@@ -2063,6 +2063,47 @@
                   "value": "0"
                 }
               ]
+            },
+            {
+              "type": "svggraph",
+              "name": "Total Swap space",
+              "x": "12",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-ldap-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Total swap space"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
             }
           ]
         },
@@ -2447,6 +2488,88 @@
                   "value": "0"
                 }
               ]
+            },
+            {
+              "type": "svggraph",
+              "name": "Database size - Grafana",
+              "x": "12",
+              "y": "6",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "DB [grafana]: Database size"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "type": "svggraph",
+              "name": "Total Swap space",
+              "x": "12",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-postgresql-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Total swap space"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
             }
           ]
         },
@@ -2722,7 +2845,7 @@
                 {
                   "type": "1",
                   "name": "ds.hosts.0.0",
-                  "value": "edge-grafana-01"
+                  "value": "edge-zabbix-01"
                 },
                 {
                   "type": "1",
@@ -2891,6 +3014,47 @@
                   "type": "1",
                   "name": "ds.items.0.1",
                   "value": "Apache: Total workers busy"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "type": "svggraph",
+              "name": "Total Swap space",
+              "x": "12",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-zabbix-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Total swap space"
                 },
                 {
                   "type": "1",
@@ -3357,6 +3521,47 @@
                   "type": "1",
                   "name": "ds.items.0.1",
                   "value": "Apache: Total workers busy"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.color.0",
+                  "value": "FF465C"
+                },
+                {
+                  "type": "0",
+                  "name": "simple_triggers",
+                  "value": "1"
+                },
+                {
+                  "type": "0",
+                  "name": "righty",
+                  "value": "0"
+                },
+                {
+                  "type": "0",
+                  "name": "legend",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "type": "svggraph",
+              "name": "Total Swap space",
+              "x": "12",
+              "y": "3",
+              "width": "6",
+              "height": "3",
+              "view_mode": "0",
+              "fields": [
+                {
+                  "type": "1",
+                  "name": "ds.hosts.0.0",
+                  "value": "edge-grafana-01"
+                },
+                {
+                  "type": "1",
+                  "name": "ds.items.0.0",
+                  "value": "Linux: Total swap space"
                 },
                 {
                   "type": "1",
