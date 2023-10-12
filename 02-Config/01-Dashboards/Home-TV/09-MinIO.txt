@@ -1,4 +1,4 @@
-Page: Zabbix
+Page: MinIO
 
 Widgets:
   01 -

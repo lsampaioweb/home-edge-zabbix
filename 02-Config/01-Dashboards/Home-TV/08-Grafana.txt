@@ -1,7 +1,7 @@
 Page: Grafana
 
 Widgets:
-  01 - 
+  01 -
     Uptime
     Memory utilization
     CPU utilization
@@ -16,4 +16,3 @@ Widgets:
     Apache Bytes per second
     Apache Workers (Idle and Budy)
     Apache Response time
-
