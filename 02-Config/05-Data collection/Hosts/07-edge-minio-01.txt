@@ -1,0 +1,21 @@
+Host name   : edge-minio-01
+Templates   :
+  Apache by Zabbix agent
+  Linux by Zabbix agent
+  Systemd by Zabbix agent 2
+  Website certificate by Zabbix agent 2
+Host groups : Linux servers, Virtual machines
+
+Interfaces  :
+  Agent   : edge-minio-01.homelab
+  Connect : DNS
+  Port    : 10050
+
+Enabled: Checked
+
+Tags:
+  frontend  : minio
+  backend   : minio
+
+Macros:
+  {$CERT.WEBSITE.HOSTNAME} : edge-minio-01.homelab

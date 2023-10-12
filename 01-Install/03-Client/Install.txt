@@ -15,7 +15,11 @@
   sudo nano /etc/zabbix/zabbix_agent2.conf
   Server=edge-zabbix-01.homelab
   ServerActive=edge-zabbix-01.homelab
+  Hostname=edge-ldap-01
+  Hostname=edge-postgresql-01
   Hostname=edge-zabbix-01
+  Hostname=edge-grafana-01
+  Hostname=edge-minio-01
 
 04 - Start and Enable Zabbix Agent Service
   sudo systemctl enable zabbix-agent2 &&
