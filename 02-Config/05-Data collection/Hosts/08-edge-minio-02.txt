@@ -1,4 +1,4 @@
-Host name   : edge-minio-01
+Host name   : edge-minio-02
 Templates   :
   Apache by Zabbix agent
   Linux by Zabbix agent
@@ -7,15 +7,15 @@ Templates   :
 Host groups : Linux servers, Virtual machines
 
 Interfaces  :
-  Agent   : edge-minio-01.homelab
+  Agent   : edge-minio-02.homelab
   Connect : DNS
   Port    : 10050
 
 Enabled: Checked
 
 Tags:
-  frontend  : minio-01
-  backend   : minio-01
+  frontend  : minio-02
+  backend   : minio-02
 
 Macros:
-  {$CERT.WEBSITE.HOSTNAME} : edge-minio-01.homelab
+  {$CERT.WEBSITE.HOSTNAME} : edge-minio-02.homelab

@@ -20,15 +20,9 @@
   Hostname=edge-zabbix-01
   Hostname=edge-grafana-01
   Hostname=edge-minio-01
+  Hostname=edge-minio-02
 
-04 - Start and Enable Zabbix Agent Service
-  sudo systemctl enable zabbix-agent2 &&
-  sudo systemctl restart zabbix-agent2
-
-  Check the logs:
-    cat /var/log/zabbix/zabbix_agent2.log
-
-05 - Allow connections on the firewall
+04 - Allow connections on the firewall
   Used ports:
     TCP 10050 - Client
 
@@ -38,3 +32,10 @@
   sudo ufw allow from 192.168.5.0/28 to any port zabbix-agent comment 'From Zabbix server to agent' &&
   sudo ufw reload &&
   sudo ufw status
+
+05 - Start and Enable Zabbix Agent Service
+  sudo systemctl enable zabbix-agent2 &&
+  sudo systemctl restart zabbix-agent2
+
+  Check the logs:
+    tail -f /var/log/zabbix/zabbix_agent2.log
