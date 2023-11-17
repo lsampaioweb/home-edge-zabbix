@@ -13,8 +13,8 @@ Link:
     VMwareTimeout=120
 
 03 - Get the REAL and right UUID:
-  Log on to the ESXi server' ui, 
-    Manage -> System -> Advanced settings 
+  Log on to the ESXi server' ui,
+    Manage -> System -> Advanced settings
     Set the key 'Config.HostAgent.plugins.solo.enableMob' to TRUE.
 
   Browse to:
@@ -26,7 +26,7 @@ Link:
 
 04 - Set the Macro
   {$VMWARE.URL}       - https://edge-esxi-01.homelab/sdk
-  {$VMWARE.USERNAME}  - zabbix-user
+  {$VMWARE.USERNAME}  - edge-esxi-01-zabbix-user
   {$VMWARE.PASSWORD}  - Password: '<Keychain: "edge-esxi-01-zabbix-user">'
   {$VMWARE.HV.UUID}   - <Big number>
 
