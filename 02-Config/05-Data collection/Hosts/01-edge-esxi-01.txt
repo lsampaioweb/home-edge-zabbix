@@ -1,12 +1,12 @@
 Host name   : edge-esxi-01
-Templates   : 
+Templates   :
   Linux by SNMP
   VMWare Hypervisor
 Host groups : Hypervisor, Linux servers
 
-Interfaces  : 
-  SNMP    : edge-esxi-01.homelab
-  Connect : DNS 
+Interfaces  :
+  SNMP    : edge-esxi-01.lan.homelab
+  Connect : DNS
   Port    : 161
 
   SNMP version              : SNMPv3
@@ -20,7 +20,7 @@ Interfaces  :
   Privacy passphrase        : Keychain: "edge-esxi-01-zabbix-user"
   Use combined requests     : Checked
 
-Description         : 
+Description         :
 Monitored by proxy  : (no proxy)
 Enabled             : Checked
 

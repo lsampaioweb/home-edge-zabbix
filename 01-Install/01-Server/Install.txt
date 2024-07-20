@@ -1,6 +1,6 @@
 01 - Change hostname.
   * It is important to set the domain name.
-  sudo hostnamectl set-hostname edge-zabbix-01.homelab
+  sudo hostnamectl set-hostname edge-zabbix-01.lan.homelab
 
   sudo nano /etc/hosts
   127.0.1.1 edge-zabbix-01
@@ -23,7 +23,7 @@
     createdb -e -O zabbix -E Unicode -T template0 zabbix
 
   Restore a backup:
-    psql --host edge-postgresql-01.homelab -U zabbix -d zabbix -f zabbix_dump.sql
+    psql --host edge-postgresql-01.lan.homelab -U zabbix -d zabbix -f zabbix_dump.sql
 
   or create a new database.
     exit
@@ -40,8 +40,8 @@
     Import the data. You will be prompted to enter your newly created password.
       sudo -su postgres
       cd
-      psql --host edge-postgresql-01.homelab -U zabbix -d zabbix -f server.sql
-    
+      psql --host edge-postgresql-01.lan.homelab -U zabbix -d zabbix -f server.sql
+
     If you need to reset the database:
       psql
       \l
@@ -51,7 +51,7 @@
 
 05 - Configure the database for Zabbix server
   sudo nano /etc/zabbix/zabbix_server.conf
-  DBHost=edge-postgresql-01.homelab
+  DBHost=edge-postgresql-01.lan.homelab
   DBPassword=<Keychain: "edge-zabbix-01-db-user">
 
   * Add this line because IPV6 is disabled.

@@ -21,7 +21,7 @@ zabbix_export:
       interfaces:
         - useip: 'NO'
           ip: ''
-          dns: edge-postgresql-01.homelab
+          dns: edge-postgresql-01.lan.homelab
           interface_ref: if1
       tags:
         - tag: database
@@ -36,6 +36,6 @@ zabbix_export:
           value: zabbix_monitor
           description: 'PostgreSQL username.'
       inventory:
-        name: edge-postgresql-01.homelab
+        name: edge-postgresql-01.lan.homelab
         os: 'Linux version 5.15.0-83-generic (buildd@lcy02-amd64-027) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ub'
       inventory_mode: AUTOMATIC

@@ -7,7 +7,7 @@ Templates   :
 Host groups : Linux servers, Virtual machines
 
 Interfaces  :
-  Agent   : edge-minio-02.homelab
+  Agent   : edge-minio-02.lan.homelab
   Connect : DNS
   Port    : 10050
 
@@ -18,4 +18,4 @@ Tags:
   backend   : minio-02
 
 Macros:
-  {$CERT.WEBSITE.HOSTNAME} : edge-minio-02.homelab
+  {$CERT.WEBSITE.HOSTNAME} : edge-minio-02.lan.homelab

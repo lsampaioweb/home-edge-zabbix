@@ -8,7 +8,7 @@ Templates   :
 Host groups : Linux servers, Virtual machines, Zabbix servers
 
 Interfaces  :
-  Agent   : edge-zabbix-01.homelab
+  Agent   : edge-zabbix-01.lan.homelab
   Connect : DNS
   Port    : 10050
 
@@ -19,4 +19,4 @@ Tags:
   backend   : zabbix
 
 Macros:
-  {$CERT.WEBSITE.HOSTNAME} : edge-zabbix-01.homelab
+  {$CERT.WEBSITE.HOSTNAME} : edge-zabbix-01.lan.homelab

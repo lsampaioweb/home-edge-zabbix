@@ -23,9 +23,9 @@ Link:
 03 - Check config integrity and restart:
   apachectl configtest
   apache2 -t
-  curl https://edge-ldap-01.homelab/server-status?auto
-  curl https://edge-zabbix-01.homelab/server-status?auto
-  curl https://edge-grafana-01.homelab/server-status?auto
+  curl https://edge-ldap-01.lan.homelab/server-status?auto
+  curl https://edge-zabbix-01.lan.homelab/server-status?auto
+  curl https://edge-grafana-01.lan.homelab/server-status?auto
 
 04 - Restart the Apache service.
   sudo systemctl restart apache2

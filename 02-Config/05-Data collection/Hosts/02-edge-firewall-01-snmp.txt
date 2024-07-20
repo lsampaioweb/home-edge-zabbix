@@ -2,12 +2,12 @@
 
 Host name   : edge-firewall-01-snmp
 Templates   : Template Net Fortinet FortiGate SNMP
-  
+
 Host groups : Firewall, Network devices
 
-Interfaces  : 
-  SNMP    : edge-firewall-01-snmp.homelab
-  Connect : DNS 
+Interfaces  :
+  SNMP    : edge-firewall-01-snmp.lan.homelab
+  Connect : DNS
   Port    : 161
 
   SNMP version              : SNMPv3
@@ -21,7 +21,7 @@ Interfaces  :
   Privacy passphrase        : Keychain: "edge-firewall-01-zabbix-user"
   Use combined requests     : Checked
 
-Description         : 
+Description         :
 Monitored by proxy  : (no proxy)
 Enabled             : Checked
 

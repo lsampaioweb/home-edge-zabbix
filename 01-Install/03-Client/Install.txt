@@ -13,8 +13,8 @@
 
 03 - Configure Zabbix Agent
   sudo nano /etc/zabbix/zabbix_agent2.conf
-  Server=edge-zabbix-01.homelab
-  ServerActive=edge-zabbix-01.homelab
+  Server=edge-zabbix-01.lan.homelab
+  ServerActive=edge-zabbix-01.lan.homelab
   Hostname=edge-ldap-01
   Hostname=edge-postgresql-01
   Hostname=edge-zabbix-01
