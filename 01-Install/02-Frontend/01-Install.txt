@@ -1,7 +1,7 @@
 01 - Copy all the necessary files to the server.
   mkdir -p ~/zabbix/site/
-  rsync -avh -e ssh /opt/certificates/edge-zabbix-01.homelab/{*.crt,*.key} lsampaio-zabbix-team@edge-zabbix-01.homelab:~/zabbix/site/
-  rsync -avh -e ssh 01-Install/02-Frontend/files/ lsampaio-zabbix-team@edge-zabbix-01.homelab:~/zabbix/site/
+  rsync -avh -e ssh /opt/certificates/edge-zabbix-01.lan.homelab/{*.crt,*.key} lsampaio-zabbix-team@edge-zabbix-01.lan.homelab:~/zabbix/site/
+  rsync -avh -e ssh 01-Install/02-Frontend/files/ lsampaio-zabbix-team@edge-zabbix-01.lan.homelab:~/zabbix/site/
 
 02 - Add the SSL certificate
   Remove the default files.
@@ -27,7 +27,7 @@
   sudo systemctl restart apache2
 
 04 - Open Zabbix UI web page:
-  The default URL https://edge-zabbix-01.homelab/
+  The default URL https://edge-zabbix-01.lan.homelab/
   Username: Admin
   Password: zabbix
 
@@ -35,7 +35,7 @@
 
   Configure DB connection:
     Database type           : PostgreSQL
-    Database host           : edge-postgresql-01.homelab
+    Database host           : edge-postgresql-01.lan.homelab
     Database port           : 0
     Database name           : zabbix
     Database schema         : public

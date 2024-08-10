@@ -18,7 +18,7 @@ zabbix_export:
         - type: SNMP
           useip: 'NO'
           ip: ''
-          dns: edge-esxi-01.homelab
+          dns: edge-esxi-01.lan.homelab
           port: '161'
           details:
             version: SNMPV3
@@ -40,13 +40,13 @@ zabbix_export:
           value: Keychain: "edge-esxi-01-zabbix-user"
           description: 'VMware service {$USERNAME} user password'
         - macro: '{$VMWARE.URL}'
-          value: 'https://edge-esxi-01.homelab/sdk'
+          value: 'https://edge-esxi-01.lan.homelab/sdk'
           description: 'VMware service (vCenter or ESX hypervisor) SDK URL (https://servername/sdk)'
         - macro: '{$VMWARE.USERNAME}'
           value: zabbix-user
           description: 'VMware service user name'
       inventory:
-        name: edge-esxi-01.homelab
+        name: edge-esxi-01.lan.homelab
         contact: lsampaioweb@gmail.com
         location: 'DC Home-Infra'
       inventory_mode: AUTOMATIC

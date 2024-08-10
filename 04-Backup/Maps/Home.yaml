@@ -62,7 +62,7 @@ zabbix_export:
           icon_maintenance: {  }
           urls:
             - name: edge-esxi-01
-              url: 'https://edge-esxi-01.homelab/'
+              url: 'https://edge-esxi-01.lan.homelab/'
           evaltype: '0'
         - elementtype: '0'
           elements:
@@ -85,7 +85,7 @@ zabbix_export:
           icon_maintenance: {  }
           urls:
             - name: edge-firewall-01
-              url: 'https://edge-firewall-01.homelab/'
+              url: 'https://edge-firewall-01.lan.homelab/'
           evaltype: '0'
         - elementtype: '4'
           label: Internet

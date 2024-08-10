@@ -1,14 +1,14 @@
 Host name   : edge-grafana-01
-Templates   : 
+Templates   :
   Apache by Zabbix agent
   Linux by Zabbix agent
   Systemd by Zabbix agent 2
   Website certificate by Zabbix agent 2
 Host groups : Linux servers, Virtual machines
 
-Interfaces  : 
-  Agent   : edge-grafana-01.homelab
-  Connect : DNS 
+Interfaces  :
+  Agent   : edge-grafana-01.lan.homelab
+  Connect : DNS
   Port    : 10050
 
 Enabled: Checked
@@ -17,5 +17,5 @@ Tags:
   frontend  : grafana
   backend   : grafana
 
-Macros:  
-  {$CERT.WEBSITE.HOSTNAME} : edge-grafana-01.homelab
+Macros:
+  {$CERT.WEBSITE.HOSTNAME} : edge-grafana-01.lan.homelab

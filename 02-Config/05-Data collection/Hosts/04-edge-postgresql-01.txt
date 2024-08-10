@@ -1,13 +1,13 @@
 Host name   : edge-postgresql-01
-Templates   : 
+Templates   :
   Linux by Zabbix agent
   PostgreSQL by Zabbix agent 2
   Systemd by Zabbix agent 2
 Host groups : Linux servers, Virtual machines
 
-Interfaces  : 
-  Agent   : edge-postgresql-01.homelab
-  Connect : DNS 
+Interfaces  :
+  Agent   : edge-postgresql-01.lan.homelab
+  Connect : DNS
   Port    : 10050
 
 Enabled: Checked

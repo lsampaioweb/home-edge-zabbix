@@ -17,7 +17,7 @@ zabbix_export:
         - type: SNMP
           useip: 'NO'
           ip: ''
-          dns: edge-firewall-01-snmp.homelab
+          dns: edge-firewall-01-snmp.lan.homelab
           port: '161'
           details:
             version: SNMPV3

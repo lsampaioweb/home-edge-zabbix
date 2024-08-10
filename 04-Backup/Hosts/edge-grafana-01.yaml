@@ -22,7 +22,7 @@ zabbix_export:
       interfaces:
         - useip: 'NO'
           ip: ''
-          dns: edge-grafana-01.homelab
+          dns: edge-grafana-01.lan.homelab
           interface_ref: if1
       tags:
         - tag: backend
@@ -33,6 +33,6 @@ zabbix_export:
         - macro: '{$CERT.WEBSITE.HOSTNAME}'
           value: edge-grafana-01.homelab
       inventory:
-        name: edge-grafana-01.homelab
+        name: edge-grafana-01.lan.homelab
         os: 'Linux version 5.15.0-83-generic (buildd@lcy02-amd64-027) (gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, GNU ld (GNU Binutils for Ub'
       inventory_mode: AUTOMATIC

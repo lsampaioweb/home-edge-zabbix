@@ -2,14 +2,14 @@ Enable LDAP authentication  : Checked
 Enable JIT provisioning     : Checked
 
 Servers
-  Edge-LDAP	ldap://edge-ldap-01.homelab
+  Edge-LDAP	ldap://edge-ldap-01.lan.homelab
 
 Case-sensitive login        : Checked
 Provisioning period         : 1h
 
 LDAP Server Settings:
   Name                            : Edge-LDAP
-  Host                            : ldap://edge-ldap-01.homelab
+  Host                            : ldap://edge-ldap-01.lan.homelab
   Port                            : 389
   Base DN                         : ou=people,dc=homelab
   Search attribute                : uid
