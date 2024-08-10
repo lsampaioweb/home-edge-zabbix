@@ -6,7 +6,7 @@ Service:
     Name  : backend
     Value : openldap
     Name  : target
-    Value : slapd.service
+    Value : slapd
     Name  : scope
     Value : availability
 

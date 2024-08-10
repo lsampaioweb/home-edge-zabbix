@@ -1,0 +1,21 @@
+Service:
+  Name                    : Apache Is running
+  Parent services         : Grafana
+
+  Problem tags:
+    Name  : frontend
+    Value : grafana
+    Name  : target
+    Value : apache
+    Name  : scope
+    Value : availability
+
+  Sort order (0->999)     : 3
+  Status calculation rule : Most critical of child services
+  Description             : Monitor the Apache application.
+
+  Advanced configuration  : Unchecked
+
+Tags:
+  Name	: service
+  Value : grafana-apache

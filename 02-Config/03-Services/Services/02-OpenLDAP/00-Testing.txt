@@ -1,0 +1,35 @@
+sudo systemctl status sshd
+sudo systemctl stop sshd
+sudo systemctl start sshd
+
+sudo systemctl status slapd
+sudo systemctl stop slapd
+sudo systemctl start slapd
+
+sudo systemctl status apache2
+sudo systemctl stop apache2
+sudo systemctl start apache2
+
+sudo systemctl status zabbix_agent2
+sudo systemctl stop zabbix_agent2
+sudo systemctl start zabbix_agent2
+
+sudo systemctl status promtail
+sudo systemctl stop promtail
+sudo systemctl start promtail
+
+sudo systemctl status promtail
+sudo systemctl stop promtail
+sudo systemctl start promtail
+
+sudo systemctl status ufw
+sudo systemctl stop ufw
+sudo systemctl start ufw
+
+sudo systemctl status sssd
+sudo systemctl stop sssd
+sudo systemctl start sssd
+
+sudo systemctl status apparmor
+sudo systemctl stop apparmor
+sudo systemctl start apparmor
